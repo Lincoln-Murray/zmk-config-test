@@ -3,6 +3,6 @@
 # No whitespace after the comma or in your keyboard name!
 # Config name will be reused in Kconfig.defconfig
 
-config KBNAME
-    def_bool $(shields_list_contains,kbName)
+config TEST
+    def_bool $(shields_list_contains,test)
  
